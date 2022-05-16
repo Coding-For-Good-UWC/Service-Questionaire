@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap");
+* {
+    color: #ffffff;
+    background-color: #081c30;
+    font-family: "Fredoka One", "Fredoka", "Karla", sans-serif;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#question-num {
+    color: #fbdb32;
+    font-weight: bolder;
+    margin-bottom: 2vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inner-question-container {
+    margin-bottom: 5vh;
 }
 
-.App-link {
-  color: #61dafb;
+.question-text {
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fixed-size {
+    width: 50vw;
 }
