@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Global Child Development Centre",
+        "sdgs": [4, 10],
+        "tags": ["working_with_children", "education", "dancing"],
+        "grade": [6, 7],
+        "action_type": ["direct"],
+        "service_type": "local_service"
+    },
+    {
+        "name": "Hougang Care Centre",
+        "sdgs": [3, 10],
+        "tags": ["mental_health", "arts_and_crafts"],
+        "grade": [8],
+        "action_type": ["direct"],
+        "service_type": "local_service"
+    },
+    {
+        "name": "PPIS 1 Child Care Centre",
+        "sdgs": [4, 10],
+        "tags": ["education", "books", "reading", "children"],
+        "grade": [6, 7],
+        "action_type": ["direct"],
+        "service_type": "local_service"
+    },
+    {
+        "name": "PPIS 2 Child Care Centre",
+        "sdgs": [4, 10],
+        "tags": ["children", "arts_and_crafts"],
+        "grade": [8],
+        "action_type": ["direct"],
+        "service_type": "local_service"
+    },
+    {
+        "name": "Down Syndrome Association ",
+        "sdgs": [3, 10],
+        "tags": ["working_with_grade_11s", "down_syndrome"],
+        "grade": [7],
+        "action_type": ["direct"],
+        "service_type": "local_service"
+    },
+    {
+        "name": "Blue Dragon",
+        "sdgs": [10, 17],
+        "tags": ["children", "peace", "education", "vietnam", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Daraja Academy",
+        "sdgs": [4, 5],
+        "tags": ["children", "education", "equality", "gender_equality", "kenya", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Green Umbrella",
+        "sdgs": [4, 15],
+        "tags": ["children", "education", "equality", "cambodia", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "iIndia",
+        "sdgs": [8, 10],
+        "tags": ["children", "women", "poverty_cycle", "equality", "india", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Kampot Khmer",
+        "sdgs": [1, 4],
+        "tags": ["children", "poverty_cycle", "education", "cambodia", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Kuma Cambodia",
+        "sdgs": [4],
+        "tags": ["children", "poverty_cycle", "education", "cambodia", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Moving Mountains",
+        "sdgs": [5, 8],
+        "tags": ["gender_equality", "vocational_training", "environemental_issues", "nepal", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Project Sunbear",
+        "sdgs": [13, 14, 15],
+        "tags": ["sunbears", "animals_rights", "environmental_issues", "borneo", "malaysia", "phnom_penh", "cambodia", "marketing", "advertising"],
+        "grade": [6, 7, 8],
+        "action_type": ["indirect", "advocacy"],
+        "service_type": "global_concerns"
+    },
+    {
+        "name": "Fresh Fruit Friday",
+        "sdgs": [2, 3],
+        "tags": ["food", "working_with_charities"],
+        "grade": [6],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Home Composting",
+        "sdgs": [11, 12, 13, 15, 17],
+        "tags": ["composting", "data_analysis"],
+        "grade": [7],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Campus Composting",
+        "sdgs": [11, 12, 13, 15, 17],
+        "tags": ["composting", "data_analysis"],
+        "grade": [8],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Composting Leaders",
+        "sdgs": [11, 12, 13, 15, 17],
+        "tags": ["composting", "training", "leadership"],
+        "grade": [8],
+        "action_type": ["advocacy"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "MS Leaders of Environmental Initiatives",
+        "sdgs": [13, 14, 15, 16, 17],
+        "tags": ["presentation", "training", "leadership"],
+        "grade": [6, 7, 8],
+        "action_type": ["advocacy"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Urban Gardening",
+        "sdgs": [13, 15],
+        "tags": ["gradening", "plants"],
+        "grade": [6, 7, 8],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Artist Collaborative Green Initiative",
+        "sdgs": [13, 14, 15],
+        "tags": ["art_and_crafts"],
+        "grade": [6, 7, 8],
+        "action_type": ["advocacy"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Conservation@SEA",
+        "sdgs": [13, 14, 15],
+        "tags": ["marine_life"],
+        "grade": [6, 7, 8],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Roots and Shoots",
+        "sdgs": [13, 14, 15],
+        "tags": ["planting", "animals", "data_collection"],
+        "grade": [6, 7, 8],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Solar for East",
+        "sdgs": [11, 12, 13, 17],
+        "tags": ["solar_power", "technology"],
+        "grade": [6, 7, 8],
+        "action_type": "advocacy",
+        "service_type": "environmental_initiatives"
+    },
+    {
+        "name": "Rainforest Restoration",
+        "sdgs": [13, 14, 15],
+        "tags": ["trees", "planting", "parks"],
+        "grade": [6, 7, 8],
+        "action_type": ["direct"],
+        "service_type": "environmental_initiatives"
+    }
+]
