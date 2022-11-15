@@ -5,7 +5,8 @@
         "tags": ["working_with_children", "education", "dancing"],
         "grade": [6, 7],
         "action_type": ["direct"],
-        "service_type": "local_service"
+        "service_type": "local_service",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Hougang Care Centre",
@@ -13,7 +14,8 @@
         "tags": ["mental_health", "arts_and_crafts"],
         "grade": [8],
         "action_type": ["direct"],
-        "service_type": "local_service"
+        "service_type": "local_service",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "PPIS 1 Child Care Centre",
@@ -21,7 +23,8 @@
         "tags": ["education", "books", "reading", "children"],
         "grade": [6, 7],
         "action_type": ["direct"],
-        "service_type": "local_service"
+        "service_type": "local_service",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "PPIS 2 Child Care Centre",
@@ -29,7 +32,8 @@
         "tags": ["children", "arts_and_crafts"],
         "grade": [8],
         "action_type": ["direct"],
-        "service_type": "local_service"
+        "service_type": "local_service",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Down Syndrome Association ",
@@ -37,7 +41,8 @@
         "tags": ["working_with_grade_11s", "down_syndrome"],
         "grade": [7],
         "action_type": ["direct"],
-        "service_type": "local_service"
+        "service_type": "local_service",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Blue Dragon",
@@ -45,7 +50,8 @@
         "tags": ["children", "peace", "education", "vietnam", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Daraja Academy",
@@ -53,7 +59,8 @@
         "tags": ["children", "education", "equality", "gender_equality", "kenya", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Green Umbrella",
@@ -61,7 +68,8 @@
         "tags": ["children", "education", "equality", "cambodia", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "iIndia",
@@ -69,7 +77,8 @@
         "tags": ["children", "women", "poverty_cycle", "equality", "india", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Kampot Khmer",
@@ -77,7 +86,8 @@
         "tags": ["children", "poverty_cycle", "education", "cambodia", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Kuma Cambodia",
@@ -85,7 +95,8 @@
         "tags": ["children", "poverty_cycle", "education", "cambodia", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Moving Mountains",
@@ -93,7 +104,8 @@
         "tags": ["gender_equality", "vocational_training", "environemental_issues", "nepal", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Project Sunbear",
@@ -101,7 +113,8 @@
         "tags": ["sunbears", "animals_rights", "environmental_issues", "borneo", "malaysia", "phnom_penh", "cambodia", "marketing", "advertising"],
         "grade": [6, 7, 8],
         "action_type": ["indirect", "advocacy"],
-        "service_type": "global_concerns"
+        "service_type": "global_concerns",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Fresh Fruit Friday",
@@ -109,7 +122,8 @@
         "tags": ["food", "working_with_charities"],
         "grade": [6],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Home Composting",
@@ -117,7 +131,8 @@
         "tags": ["composting", "data_analysis"],
         "grade": [7],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Campus Composting",
@@ -125,7 +140,8 @@
         "tags": ["composting", "data_analysis"],
         "grade": [8],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Composting Leaders",
@@ -133,7 +149,8 @@
         "tags": ["composting", "training", "leadership"],
         "grade": [8],
         "action_type": ["advocacy"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "MS Leaders of Environmental Initiatives",
@@ -141,7 +158,8 @@
         "tags": ["presentation", "training", "leadership"],
         "grade": [6, 7, 8],
         "action_type": ["advocacy"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Urban Gardening",
@@ -149,7 +167,8 @@
         "tags": ["gradening", "plants"],
         "grade": [6, 7, 8],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Artist Collaborative Green Initiative",
@@ -157,7 +176,8 @@
         "tags": ["art_and_crafts"],
         "grade": [6, 7, 8],
         "action_type": ["advocacy"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Conservation@SEA",
@@ -165,7 +185,8 @@
         "tags": ["marine_life"],
         "grade": [6, 7, 8],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Roots and Shoots",
@@ -173,7 +194,8 @@
         "tags": ["planting", "animals", "data_collection"],
         "grade": [6, 7, 8],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Solar for East",
@@ -181,7 +203,8 @@
         "tags": ["solar_power", "technology"],
         "grade": [6, 7, 8],
         "action_type": "advocacy",
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     },
     {
         "name": "Rainforest Restoration",
@@ -189,6 +212,7 @@
         "tags": ["trees", "planting", "parks"],
         "grade": [6, 7, 8],
         "action_type": ["direct"],
-        "service_type": "environmental_initiatives"
+        "service_type": "environmental_initiatives",
+        "description": "A brief description of this service. (This can be easily modified from the text file)"
     }
 ]

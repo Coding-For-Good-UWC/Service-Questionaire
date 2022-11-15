@@ -1,13 +1,14 @@
 import "./App.css";
 import MCQ from "./templates/mcq/mcq";
+import Result from "./templates/result/result";
 import { Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { useData } from "./useData";
 import React, { useState } from "react";
 
 export default function App() {
     let questions = require("./data/questions.json");
     let services = require("./data/services.json");
-    // Test Data
     // let services = [
     //     {
     //         name: "Global Child Development Centre",
@@ -27,8 +28,14 @@ export default function App() {
     //     },
     // ];
     const [question, setQuestion] = useState(0);
+    const [start, setStart] = useState(false);
 
     const { data, setData } = useData();
+
+    const onClick = (e) => {
+        e.preventDefault();
+        setStart(true);
+    };
 
     const sort_data = (input) => {
         // Removes the options that were never picked.
@@ -117,60 +124,89 @@ export default function App() {
         return aggregate_score;
     };
 
-    if (question == questions.length) {
-        // Sort SDGs
-        let sorted_sdg = sort_data(data.sdg);
-        let sorted_tags = sort_data(data.tags);
-
-        let recommended_services = services;
-        // Filter Grade
-        recommended_services = filter_grade(data.grade, services);
-        // Find SDGs & tags score for each service
-        let recommendations = score_generator(data, recommended_services);
-        console.log(recommendations);
-        let output = recommendations.slice(0,5)
+    if (start == false) {
         return (
-            <Container>
-                <div className="content-container">
-                    <h1>Results</h1>
-                    <h4>Grade: {data.grade}</h4>
-                    <h4>Results</h4>
-                    <ol>
-                        {output.map((obj) => {
+            <div className="content-container">
+                <Container>
+                    <h1>Middle School Service Questionaire</h1>
+                    <p>
+                        Answer a couple questions to find out what service is
+                        right for you!
+                    </p>
+                    <Button
+                        className="w-100"
+                        style={{ borderRadius: "2rem" }}
+                        onClick={onClick}
+                    >
+                        Get Started
+                    </Button>
+                </Container>
+            </div>
+        );
+    } else {
+        if (question == questions.length) {
+            // Sort SDGs
+            let sorted_sdg = sort_data(data.sdg);
+            let sorted_tags = sort_data(data.tags);
+
+            let recommended_services = services;
+            // Filter Grade
+            recommended_services = filter_grade(data.grade, services);
+            // Find SDGs & tags score for each service
+            let recommendations = score_generator(data, recommended_services);
+            let output = recommendations.slice(0, 5);
+            return (
+                <Container>
+                    <div className="result-container">
+                        <h1>Recommended Services</h1>
+                        <h4>Grade: {data.grade}</h4>
+                        <div
+                            className="shadow p-2 m-3 bg-dark"
+                            style={{
+                                borderRadius: "1rem",
+                            }}
+                        >
+                            <h4 className="bg-dark">Results</h4>
+                        </div>
+                        {/* <ol>
+                            {output.map((obj) => {
+                                return (
+                                    <li key={obj.project.name}>
+                                        {obj.project.name}
+                                    </li>
+                                );
+                            })}
+                        </ol> */}
+                        {output.map((obj, key) => {
+                            let i = key + 1;
                             return (
-                                <li key={obj.project.name}>
-                                    {obj.project.name}
-                                </li>
+                                <Result
+                                    key={key}
+                                    title={obj.project.name}
+                                    description={obj.project.description}
+                                    imageURL={
+                                        "https://www.webfx.com/wp-content/uploads/2021/10/generic-image-placeholder.png"
+                                    }
+                                    iteration={i}
+                                />
                             );
                         })}
-                    </ol>
-                    {/* <h4>SDGs in order of interest:</h4>
-                    <ul>
-                        {sorted_sdg.map((obj, key) => {
-                            return <li key={key}>{obj}</li>;
-                        })}
-                    </ul>
-                    <h4>Tags in order of interest:</h4>
-                    <ul>
-                        {sorted_tags.map((obj, key) => {
-                            return <li key={key}>{obj}</li>;
-                        })}
-                    </ul> */}
+                    </div>
+                </Container>
+            );
+        } else {
+            return (
+                <div className="App">
+                    <Container>
+                        <MCQ
+                            content={questions[question]}
+                            index={question}
+                            setData={setData}
+                            setQuestion={setQuestion}
+                        />
+                    </Container>
                 </div>
-            </Container>
-        );
+            );
+        }
     }
-
-    return (
-        <div className="App">
-            <Container>
-                <MCQ
-                    content={questions[question]}
-                    index={question}
-                    setData={setData}
-                    setQuestion={setQuestion}
-                />
-            </Container>
-        </div>
-    );
 }

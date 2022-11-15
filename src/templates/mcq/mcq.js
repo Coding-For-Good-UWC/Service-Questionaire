@@ -2,7 +2,6 @@ import React from "react";
 import Question from "../../components/question/question";
 import Answer from "../../components/answerChoice/answerChoice";
 import PropTypes from "prop-types";
-import { Button } from "react-bootstrap";
 
 export default function MCQ({ content, index, setData, setQuestion }) {
     let answers = content.answers;
